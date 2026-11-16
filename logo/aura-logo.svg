@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><defs><radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffcf5a" stop-opacity=".8"/><stop offset=".5" stop-color="#ff8d2a" stop-opacity=".25"/><stop offset="1" stop-color="#ff8d2a" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8a5cff" stop-opacity=".55"/><stop offset="1" stop-color="#8a5cff" stop-opacity="0"/></radialGradient>
+<linearGradient id="gt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff7dc"/><stop offset=".55" stop-color="#ffcf5a"/><stop offset="1" stop-color="#ff8d2a"/></linearGradient>
+<filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="gw" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="c"><circle cx="256" cy="256" r="250"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="512" height="512" fill="#050307"/><circle cx="256" cy="230" r="300" fill="url(#g2)"/><circle cx="256" cy="250" r="230" fill="url(#g1)"/><g transform="translate(256,250) scale(1)">
+<ellipse cx="0" cy="40" rx="190" ry="230" fill="none" stroke="#ffcf5a" stroke-width="22" opacity=".35" filter="url(#bl)"/>
+<ellipse cx="0" cy="40" rx="160" ry="200" fill="none" stroke="#ffcf5a" stroke-width="8" opacity=".7" filter="url(#gw)"/>
+<circle cx="0" cy="-40" r="78" fill="#050307"/><path d="M-170,250 C-170,90 -100,40 0,40 C100,40 170,90 170,250Z" fill="#050307"/>
+<ellipse cx="0" cy="-150" rx="80" ry="20" fill="none" stroke="#ffcf5a" stroke-width="10" filter="url(#gw)"/></g></g>
+<circle cx="256" cy="256" r="246" fill="none" stroke="#ffcf5a" stroke-width="7"/></svg>
